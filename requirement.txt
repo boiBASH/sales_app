@@ -1,3 +1,4 @@
+mlxtend
 streamlit
 plotly
 panda
