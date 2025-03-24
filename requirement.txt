@@ -1,0 +1,6 @@
+streamlit
+plotly
+panda
+surprise
+number
+SVD
