@@ -1,7 +1,6 @@
 mlxtend
 streamlit
 plotly
-panda
-surprise
-number
-SVD
+pandas
+numpy
+scikit-surprise
