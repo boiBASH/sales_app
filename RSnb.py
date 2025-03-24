@@ -64,7 +64,7 @@ if uploaded_file is not None:
         
         if st.button("Get Recommendations"):
             product_ids = sales_data['SKU_Code'].unique()
-            predictions = [model.predict(customer_id, pid).est for pid in product_ids]
+            predictions = [model.predict(Salesman_Code, pid).est for pid in product_ids]
             recommendations = pd.DataFrame({'SKU_Code': product_ids, 'Predicted Rating': predictions})
             recommendations = recommendations.sort_values(by='Predicted Rating', ascending=False).head(10)
             
