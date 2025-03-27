@@ -4,3 +4,5 @@ plotly
 pandas
 numpy
 scikit-surprise
+matplotlib.pyplot
+seaborn
