@@ -1,8 +1,8 @@
-mlxtend
 streamlit
+mlxtend
 plotly
 pandas
 numpy
 scikit-surprise
-matplotlib.pyplot
+matplotlib
 seaborn
