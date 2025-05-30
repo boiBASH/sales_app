@@ -66,7 +66,7 @@ if uploaded_file is not None:
             product_ids = sales_data['SKU_Code'].unique()
             predictions = [model.predict(salesman_code, pid).est for pid in product_ids]
             recommendations = pd.DataFrame({'SKU_Code': product_ids, 'Predicted Rating': predictions})
-            recommendations = recommendations.sort_values(by='Predicted Rating', ascending=False).head(10)
+            recommendations = recommendations.sort_values(by='Predicted Rating', ascending=False).head(3)
             
             st.write("Top 10 Recommended Products:")
             st.dataframe(recommendations)
