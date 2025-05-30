@@ -18,7 +18,7 @@ import seaborn as sns
  
 st.title("MBA AND RS")
  
-uploaded_file = st.file_uploader("Upload your sales_data.csv", type=["csv"])
+uploaded_file = st.file_uploader("Upload your sales_df.csv", type=["csv"])
  
 if uploaded_file:
 
